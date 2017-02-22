@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "KnockoutMatch"
   s.version      = "0.0.1"
-  s.summary      = "KnockoutMatch is used to layout knockout match"
+  s.summary      = "KnockoutMatch is used to layout Knockout Match"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   "KnockoutMatch is used to layout knockout match"
+                   KnockoutMatch is used to layout Knockout Match
 			DESC
 
-  s.homepage     = "https://github.com/jayhe"
+  s.homepage     = "https://github.com/jayhe/KnockoutMatch"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 

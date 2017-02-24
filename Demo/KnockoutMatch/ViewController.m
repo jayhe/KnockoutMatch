@@ -74,7 +74,7 @@
     [self.containerView addSubview:self.knockoutView];
     //set frame
     _containerView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
-    _containerView.contentSize = CGSizeMake(_knockoutView.frame.size.width + 0*2, _knockoutView.frame.size.height);
+    _containerView.contentSize = CGSizeMake(_knockoutView.frame.size.width + 12*2, _knockoutView.frame.size.height);
 }
 
 #pragma mark - Getter && Setter
@@ -98,7 +98,7 @@
         _knockoutView = [[HCKnockoutMatchView alloc] init];
         _knockoutView.dataSource = self;
         //设置布局
-        [_knockoutView layoutViewWithTeamCount:8 origin:CGPointMake(10, 150) isShowThirdPlace:NO isDouble:NO];
+        [_knockoutView layoutViewWithTeamCount:16 origin:CGPointMake(10, 150) isShowThirdPlace:NO isDouble:NO];
     }
     
     return _knockoutView;

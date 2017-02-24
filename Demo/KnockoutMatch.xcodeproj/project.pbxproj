@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102D90C01E5FCD13000D4CFF /* HCKnockoutMatchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 102D90BC1E5FCD13000D4CFF /* HCKnockoutMatchCell.m */; };
+		102D90C11E5FCD13000D4CFF /* HCKnockoutMatchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102D90BD1E5FCD13000D4CFF /* HCKnockoutMatchCell.xib */; };
+		102D90C21E5FCD13000D4CFF /* HCKnockoutMatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 102D90BF1E5FCD13000D4CFF /* HCKnockoutMatchView.m */; };
 		10B3BAB61E5C3EF200138103 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B3BAB51E5C3EF200138103 /* main.m */; };
 		10B3BAB91E5C3EF200138103 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B3BAB81E5C3EF200138103 /* AppDelegate.m */; };
 		10B3BABC1E5C3EF200138103 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B3BABB1E5C3EF200138103 /* ViewController.m */; };
 		10B3BABF1E5C3EF200138103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B3BABD1E5C3EF200138103 /* Main.storyboard */; };
 		10B3BAC11E5C3EF200138103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B3BAC01E5C3EF200138103 /* Assets.xcassets */; };
 		10B3BAC41E5C3EF200138103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B3BAC21E5C3EF200138103 /* LaunchScreen.storyboard */; };
-		10B3BAD51E5C3F2300138103 /* HCKnockoutMatchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B3BACD1E5C3F2300138103 /* HCKnockoutMatchCell.m */; };
-		10B3BAD61E5C3F2300138103 /* HCKnockoutMatchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10B3BACE1E5C3F2300138103 /* HCKnockoutMatchCell.xib */; };
-		10B3BAD71E5C3F2300138103 /* HCKnockoutMatchLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B3BAD01E5C3F2300138103 /* HCKnockoutMatchLayout.m */; };
-		10B3BAD81E5C3F2300138103 /* HCKnockoutMatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B3BAD21E5C3F2300138103 /* HCKnockoutMatchManager.m */; };
-		10B3BAD91E5C3F2300138103 /* HCKnockoutMatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B3BAD41E5C3F2300138103 /* HCKnockoutMatchView.m */; };
+		AA0E117AEF964D16F2B86085 /* libPods-KnockoutMatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 641187F85F1CE605AEC6797A /* libPods-KnockoutMatch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		102D90BB1E5FCD13000D4CFF /* HCKnockoutMatchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCKnockoutMatchCell.h; sourceTree = "<group>"; };
+		102D90BC1E5FCD13000D4CFF /* HCKnockoutMatchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCKnockoutMatchCell.m; sourceTree = "<group>"; };
+		102D90BD1E5FCD13000D4CFF /* HCKnockoutMatchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCKnockoutMatchCell.xib; sourceTree = "<group>"; };
+		102D90BE1E5FCD13000D4CFF /* HCKnockoutMatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCKnockoutMatchView.h; sourceTree = "<group>"; };
+		102D90BF1E5FCD13000D4CFF /* HCKnockoutMatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCKnockoutMatchView.m; sourceTree = "<group>"; };
 		10B3BAB11E5C3EF200138103 /* KnockoutMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnockoutMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B3BAB51E5C3EF200138103 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10B3BAB71E5C3EF200138103 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,15 +35,9 @@
 		10B3BAC01E5C3EF200138103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B3BAC31E5C3EF200138103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10B3BAC51E5C3EF200138103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10B3BACC1E5C3F2300138103 /* HCKnockoutMatchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCKnockoutMatchCell.h; sourceTree = "<group>"; };
-		10B3BACD1E5C3F2300138103 /* HCKnockoutMatchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCKnockoutMatchCell.m; sourceTree = "<group>"; };
-		10B3BACE1E5C3F2300138103 /* HCKnockoutMatchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCKnockoutMatchCell.xib; sourceTree = "<group>"; };
-		10B3BACF1E5C3F2300138103 /* HCKnockoutMatchLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCKnockoutMatchLayout.h; sourceTree = "<group>"; };
-		10B3BAD01E5C3F2300138103 /* HCKnockoutMatchLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCKnockoutMatchLayout.m; sourceTree = "<group>"; };
-		10B3BAD11E5C3F2300138103 /* HCKnockoutMatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCKnockoutMatchManager.h; sourceTree = "<group>"; };
-		10B3BAD21E5C3F2300138103 /* HCKnockoutMatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCKnockoutMatchManager.m; sourceTree = "<group>"; };
-		10B3BAD31E5C3F2300138103 /* HCKnockoutMatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCKnockoutMatchView.h; sourceTree = "<group>"; };
-		10B3BAD41E5C3F2300138103 /* HCKnockoutMatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCKnockoutMatchView.m; sourceTree = "<group>"; };
+		641187F85F1CE605AEC6797A /* libPods-KnockoutMatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KnockoutMatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904E341419596C8754C454F2 /* Pods-KnockoutMatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnockoutMatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnockoutMatch/Pods-KnockoutMatch.debug.xcconfig"; sourceTree = "<group>"; };
+		A44B02D5F580EFAA34F8F65D /* Pods-KnockoutMatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnockoutMatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnockoutMatch/Pods-KnockoutMatch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +45,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0E117AEF964D16F2B86085 /* libPods-KnockoutMatch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		102D90B81E5FCD13000D4CFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		102D90B91E5FCD13000D4CFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		102D90BA1E5FCD13000D4CFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				102D90BB1E5FCD13000D4CFF /* HCKnockoutMatchCell.h */,
+				102D90BC1E5FCD13000D4CFF /* HCKnockoutMatchCell.m */,
+				102D90BD1E5FCD13000D4CFF /* HCKnockoutMatchCell.xib */,
+				102D90BE1E5FCD13000D4CFF /* HCKnockoutMatchView.h */,
+				102D90BF1E5FCD13000D4CFF /* HCKnockoutMatchView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		10B3BAA81E5C3EF200138103 = {
 			isa = PBXGroup;
 			children = (
 				10B3BAB31E5C3EF200138103 /* KnockoutMatch */,
 				10B3BAB21E5C3EF200138103 /* Products */,
+				4359B2C398057F80EEB3219B /* Pods */,
+				F4B5E90BB2EFD1851915855F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +99,9 @@
 		10B3BAB31E5C3EF200138103 /* KnockoutMatch */ = {
 			isa = PBXGroup;
 			children = (
-				10B3BACB1E5C3F2300138103 /* Classes */,
+				102D90B81E5FCD13000D4CFF /* Controller */,
+				102D90B91E5FCD13000D4CFF /* Model */,
+				102D90BA1E5FCD13000D4CFF /* View */,
 				10B3BAB71E5C3EF200138103 /* AppDelegate.h */,
 				10B3BAB81E5C3EF200138103 /* AppDelegate.m */,
 				10B3BABA1E5C3EF200138103 /* ViewController.h */,
@@ -94,20 +123,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		10B3BACB1E5C3F2300138103 /* Classes */ = {
+		4359B2C398057F80EEB3219B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				10B3BACC1E5C3F2300138103 /* HCKnockoutMatchCell.h */,
-				10B3BACD1E5C3F2300138103 /* HCKnockoutMatchCell.m */,
-				10B3BACE1E5C3F2300138103 /* HCKnockoutMatchCell.xib */,
-				10B3BACF1E5C3F2300138103 /* HCKnockoutMatchLayout.h */,
-				10B3BAD01E5C3F2300138103 /* HCKnockoutMatchLayout.m */,
-				10B3BAD11E5C3F2300138103 /* HCKnockoutMatchManager.h */,
-				10B3BAD21E5C3F2300138103 /* HCKnockoutMatchManager.m */,
-				10B3BAD31E5C3F2300138103 /* HCKnockoutMatchView.h */,
-				10B3BAD41E5C3F2300138103 /* HCKnockoutMatchView.m */,
+				904E341419596C8754C454F2 /* Pods-KnockoutMatch.debug.xcconfig */,
+				A44B02D5F580EFAA34F8F65D /* Pods-KnockoutMatch.release.xcconfig */,
 			);
-			path = Classes;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4B5E90BB2EFD1851915855F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				641187F85F1CE605AEC6797A /* libPods-KnockoutMatch.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10B3BAC81E5C3EF200138103 /* Build configuration list for PBXNativeTarget "KnockoutMatch" */;
 			buildPhases = (
+				B1AC73419FCCAC798AE6446B /* [CP] Check Pods Manifest.lock */,
 				10B3BAAD1E5C3EF200138103 /* Sources */,
 				10B3BAAE1E5C3EF200138103 /* Frameworks */,
 				10B3BAAF1E5C3EF200138103 /* Resources */,
+				1C2EA25A5728352BD39AAE15 /* [CP] Embed Pods Frameworks */,
+				9A347331D17DBDEA38453181 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,25 +204,71 @@
 			files = (
 				10B3BAC41E5C3EF200138103 /* LaunchScreen.storyboard in Resources */,
 				10B3BAC11E5C3EF200138103 /* Assets.xcassets in Resources */,
+				102D90C11E5FCD13000D4CFF /* HCKnockoutMatchCell.xib in Resources */,
 				10B3BABF1E5C3EF200138103 /* Main.storyboard in Resources */,
-				10B3BAD61E5C3F2300138103 /* HCKnockoutMatchCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C2EA25A5728352BD39AAE15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnockoutMatch/Pods-KnockoutMatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A347331D17DBDEA38453181 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnockoutMatch/Pods-KnockoutMatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1AC73419FCCAC798AE6446B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10B3BAAD1E5C3EF200138103 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102D90C21E5FCD13000D4CFF /* HCKnockoutMatchView.m in Sources */,
 				10B3BABC1E5C3EF200138103 /* ViewController.m in Sources */,
-				10B3BAD71E5C3F2300138103 /* HCKnockoutMatchLayout.m in Sources */,
 				10B3BAB91E5C3EF200138103 /* AppDelegate.m in Sources */,
-				10B3BAD81E5C3F2300138103 /* HCKnockoutMatchManager.m in Sources */,
+				102D90C01E5FCD13000D4CFF /* HCKnockoutMatchCell.m in Sources */,
 				10B3BAB61E5C3EF200138103 /* main.m in Sources */,
-				10B3BAD51E5C3F2300138103 /* HCKnockoutMatchCell.m in Sources */,
-				10B3BAD91E5C3F2300138103 /* HCKnockoutMatchView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +384,7 @@
 		};
 		10B3BAC91E5C3EF200138103 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904E341419596C8754C454F2 /* Pods-KnockoutMatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L2ZY2L7GYS;
@@ -318,6 +398,7 @@
 		};
 		10B3BACA1E5C3EF200138103 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A44B02D5F580EFAA34F8F65D /* Pods-KnockoutMatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L2ZY2L7GYS;

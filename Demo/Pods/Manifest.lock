@@ -1,0 +1,12 @@
+PODS:
+  - KnockoutMatch (0.0.1)
+
+DEPENDENCIES:
+  - KnockoutMatch (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  KnockoutMatch: a68a96ded45de27bd40ab2c647be694e75f184bb
+
+PODFILE CHECKSUM: 4a47cbbd42a3c90e0def7038b5625a845d5342f5
+
+COCOAPODS: 1.2.0

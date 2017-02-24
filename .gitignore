@@ -1,0 +1,33 @@
+# OS X Finder
+.DS_Store
+
+# Xcode
+.DS_Storebuild/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+!default.xcworkspacexcuserdata
+*.moved-aside
+xcuserdata
+xcuserdata/*
+*.xcscmblueprint
+
+# Build products
+build/
+*.o
+*.LinkFileList
+*.hmap
+
+# Automatic backup files
+*~.nib/
+*.swp
+*~
+*.dat
+*.dep
+
+#CocoaPods
